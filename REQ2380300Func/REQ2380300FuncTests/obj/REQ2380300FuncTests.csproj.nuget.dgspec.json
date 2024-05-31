@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300FuncTests\\REQ2380300FuncTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300FuncTests\\REQ2380300FuncTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300FuncTests\\REQ2380300FuncTests.csproj",
+        "projectName": "REQ2380300FuncTests",
+        "projectPath": "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300FuncTests\\REQ2380300FuncTests.csproj",
+        "packagesPath": "C:\\Users\\xiaodong.b.liu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300FuncTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xiaodong.b.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300Func\\REQ2380300Func.csproj": {
+                "projectPath": "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300Func\\REQ2380300Func.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300Func\\REQ2380300Func.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300Func\\REQ2380300Func.csproj",
+        "projectName": "REQ2380300Func",
+        "projectPath": "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300Func\\REQ2380300Func.csproj",
+        "packagesPath": "C:\\Users\\xiaodong.b.liu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xiaodong.b.liu\\Desktop\\orion\\GenshinHikaku_ver\\REQ2380300Func\\REQ2380300Func\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xiaodong.b.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.18.0, )"
+            },
+            "Azure.Storage.Files.Shares": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Storage": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "Microsoft.Extensions.Azure": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.ApplicationInsights": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "NReco.Logging.File": {
+              "target": "Package",
+              "version": "[1.1.7, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

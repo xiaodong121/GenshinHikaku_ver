@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "REQ2380300Func": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7256",
+      "launchBrowser": false
+    }
+  }
+}
